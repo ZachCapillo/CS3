@@ -18,11 +18,10 @@ def apply_item(item):
 
 
 potions = [
-    HealthPotion(),
-    ManaPotion(),
-    SpeedBoost()
+    healthpotion(),
+    manapotion(),
+    speedboost()
 ]
-
 
 
 for potion in potions:
